@@ -1,5 +1,5 @@
 from referenceManual import colorcode_pair
-from colorCodePairUnitTests import *
+from colorCodePairUnitTest import *
 
 MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
 MINOR_COLORS = ["Blue", "Orange", "Green", "Brown", "Slate"]
