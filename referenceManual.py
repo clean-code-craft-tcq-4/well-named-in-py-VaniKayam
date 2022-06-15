@@ -1,10 +1,9 @@
-
 def colorcode_pair(MAJOR_COLORS,MINOR_COLORS):
-         num = 1
-         print("-------------------------------------------")
-         print(' | ',"PARA NO.",' | ',"MAJOR",'   | ',"MINOR",'   | ')
-         print("-------------------------------------------")
-         for i in MAJOR_COLORS:
-            for j in MINOR_COLORS:
-               print(' | ',num ,'\t | ',i,'\t | ',j,'\t | ')
-               num=num+1
+         pairNumber = 1
+         print("---------------------------------------------------------")
+         print ("{:<21} {:<21} {:<21}".format('Pair Number','Major Color', 'Minor Color'))
+         print("---------------------------------------------------------")
+         for major_color in MAJOR_COLORS:
+            for minor_color in MINOR_COLORS:
+               print ("   {:<21} {:<21} {:<21}".format(pairNumber,major_color, minor_color))
+               pairNumber=pairNumber+1
